@@ -17,9 +17,6 @@ public enum errors: Error {
 
 public struct errorMessages{
     
-    static var errorSelfBankServers = NSLocalizedString("Error.noRed", comment: "")
-    static var errorRequestGeneric = NSLocalizedString("Error.requestGeneric", comment: "")
-    static var updateCategorie = "Se ha solicitado el cambio de categoría, en unos segundos se hará efectiva."
 }
 
 
@@ -45,12 +42,12 @@ extension UIViewController : errorHandlerProtocol{
    public func sendMsgGenericErrorTypeDelegate(errorType: errors) {
         
         switch errorType {
-        case .InternalError:
-            self.showGenericError(message: errorMessages.errorSelfBankServers)
         case let .ServerError(errorMessage):
              self.showGenericError(message: errorMessage)
         case let .ServerErrorWithNumber(errorMessage, _):
              self.showGenericError(message: errorMessage)
+        default:
+            break
         }
         
     }

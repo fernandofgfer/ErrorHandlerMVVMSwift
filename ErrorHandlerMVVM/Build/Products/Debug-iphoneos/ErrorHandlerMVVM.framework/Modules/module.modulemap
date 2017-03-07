@@ -1,0 +1,10 @@
+framework module ErrorHandlerMVVM {
+  umbrella header "ErrorHandlerMVVM.h"
+
+  export *
+  module * { export * }
+}
+
+module ErrorHandlerMVVM.Swift {
+    header "ErrorHandlerMVVM-Swift.h"
+}

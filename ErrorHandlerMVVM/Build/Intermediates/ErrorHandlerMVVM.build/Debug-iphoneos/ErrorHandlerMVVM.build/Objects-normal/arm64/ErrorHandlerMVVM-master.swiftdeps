@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "0f985a74a4950cb7565fff2491661a19"
+build_time: [542212807, 903444000]
+inputs:
+  "/Users/Fernando/Proyectos/ErrorHandlerMVVMSwift/ErrorHandlerMVVM/ErrorHandlerMVVM/UIViewController+ErrorView.swift": [542210010, 0]
+  "/Users/Fernando/Proyectos/ErrorHandlerMVVMSwift/ErrorHandlerMVVM/ErrorHandlerMVVM/ErrorHandlerExtension.swift": [542212806, 0]

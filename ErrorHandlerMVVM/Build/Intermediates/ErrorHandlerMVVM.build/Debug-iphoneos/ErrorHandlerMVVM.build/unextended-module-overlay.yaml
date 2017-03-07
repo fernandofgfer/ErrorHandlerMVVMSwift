@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/Fernando/Proyectos/ErrorHandlerMVVMSwift/ErrorHandlerMVVM/Build/Products/Debug-iphoneos/ErrorHandlerMVVM.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/Fernando/Proyectos/ErrorHandlerMVVMSwift/ErrorHandlerMVVM/Build/Intermediates/ErrorHandlerMVVM.build/Debug-iphoneos/ErrorHandlerMVVM.build/unextended-module.modulemap',
+    }]
+  }]
+}

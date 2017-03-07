@@ -1,0 +1,226 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "errors"
+- "errorMessages"
+- "errorHandlerProtocol"
+- "ViewModel"
+provides-nominal:
+- "O16ErrorHandlerMVVM6errors"
+- "V16ErrorHandlerMVVM13errorMessages"
+- "P16ErrorHandlerMVVM20errorHandlerProtocol"
+- "CSo16UIViewController"
+- "C16ErrorHandlerMVVM9ViewModel"
+provides-member:
+- ["O16ErrorHandlerMVVM6errors", ""]
+- ["V16ErrorHandlerMVVM13errorMessages", ""]
+- ["P16ErrorHandlerMVVM20errorHandlerProtocol", ""]
+- ["CSo16UIViewController", ""]
+- ["C16ErrorHandlerMVVM9ViewModel", ""]
+provides-dynamic-lookup:
+- "delegateErrorGeneric"
+- "sendMsgGenericErrorDelegate"
+- "sendMsgCategorie"
+depends-top-level:
+- "errorHandlerProtocol"
+- "NSObject"
+- "Error"
+- "String"
+- "errors"
+- "errorMessages"
+- "AssignmentPrecedence"
+- "Int"
+- "UIViewController"
+- "ViewModel"
+depends-member:
+- ["Ps9AnyObject", "delegateErrorGeneric"]
+- ["Ps9AnyObject", "errorHandlerDelegate"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "sendMsgCategorie"]
+- ["Ps9AnyObject", "sendMsgGenericErrorDelegate"]
+- ["Ps9AnyObject", "sendMsgGenericErrorTypeDelegate"]
+- !private ["Ps9AnyObject", "showGenericError"]
+- ["Ps9AnyObject", ""]
+- ["Ps7CVarArg", "delegateErrorGeneric"]
+- ["Ps7CVarArg", "errorHandlerDelegate"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "sendMsgCategorie"]
+- ["Ps7CVarArg", "sendMsgGenericErrorDelegate"]
+- ["Ps7CVarArg", "sendMsgGenericErrorTypeDelegate"]
+- !private ["Ps7CVarArg", "showGenericError"]
+- ["Ps7CVarArg", ""]
+- ["Ps28CustomDebugStringConvertible", "delegateErrorGeneric"]
+- ["Ps28CustomDebugStringConvertible", "errorHandlerDelegate"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "sendMsgCategorie"]
+- ["Ps28CustomDebugStringConvertible", "sendMsgGenericErrorDelegate"]
+- ["Ps28CustomDebugStringConvertible", "sendMsgGenericErrorTypeDelegate"]
+- !private ["Ps28CustomDebugStringConvertible", "showGenericError"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "delegateErrorGeneric"]
+- ["Ps23CustomStringConvertible", "errorHandlerDelegate"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "sendMsgCategorie"]
+- ["Ps23CustomStringConvertible", "sendMsgGenericErrorDelegate"]
+- ["Ps23CustomStringConvertible", "sendMsgGenericErrorTypeDelegate"]
+- !private ["Ps23CustomStringConvertible", "showGenericError"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "delegateErrorGeneric"]
+- ["Ps9Equatable", "errorHandlerDelegate"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "sendMsgCategorie"]
+- ["Ps9Equatable", "sendMsgGenericErrorDelegate"]
+- ["Ps9Equatable", "sendMsgGenericErrorTypeDelegate"]
+- !private ["Ps9Equatable", "showGenericError"]
+- ["Ps9Equatable", ""]
+- ["Ps5Error", "ServerError"]
+- ["Ps5Error", "ServerErrorWithNumber"]
+- ["Ps5Error", "_code"]
+- ["Ps5Error", "_domain"]
+- ["Ps5Error", "_getEmbeddedNSError"]
+- ["Ps5Error", "_userInfo"]
+- ["Ps5Error", ""]
+- ["Ps8Hashable", "delegateErrorGeneric"]
+- ["Ps8Hashable", "errorHandlerDelegate"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "sendMsgCategorie"]
+- ["Ps8Hashable", "sendMsgGenericErrorDelegate"]
+- ["Ps8Hashable", "sendMsgGenericErrorTypeDelegate"]
+- !private ["Ps8Hashable", "showGenericError"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- ["PSo8NSCoding", "sendMsgGenericErrorDelegate"]
+- ["PSo8NSCoding", "sendMsgGenericErrorTypeDelegate"]
+- !private ["PSo8NSCoding", "showGenericError"]
+- ["PSo26NSExtensionRequestHandling", "sendMsgGenericErrorDelegate"]
+- ["PSo26NSExtensionRequestHandling", "sendMsgGenericErrorTypeDelegate"]
+- !private ["PSo26NSExtensionRequestHandling", "showGenericError"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "ViewModel"]
+- ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "delegateErrorGeneric"]
+- ["CSo8NSObject", "errorHandlerDelegate"]
+- ["CSo8NSObject", "errorHandlerProtocol"]
+- ["CSo8NSObject", "errors"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "sendMsgCategorie"]
+- ["CSo8NSObject", "sendMsgGenericErrorDelegate"]
+- ["CSo8NSObject", "sendMsgGenericErrorTypeDelegate"]
+- !private ["CSo8NSObject", "showGenericError"]
+- ["CSo8NSObject", ""]
+- ["PSo16NSObjectProtocol", "delegateErrorGeneric"]
+- ["PSo16NSObjectProtocol", "errorHandlerDelegate"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "sendMsgCategorie"]
+- ["PSo16NSObjectProtocol", "sendMsgGenericErrorDelegate"]
+- ["PSo16NSObjectProtocol", "sendMsgGenericErrorTypeDelegate"]
+- !private ["PSo16NSObjectProtocol", "showGenericError"]
+- ["PSo16NSObjectProtocol", ""]
+- ["SS", "deinit"]
+- ["PSo21UIAppearanceContainer", "sendMsgGenericErrorDelegate"]
+- ["PSo21UIAppearanceContainer", "sendMsgGenericErrorTypeDelegate"]
+- !private ["PSo21UIAppearanceContainer", "showGenericError"]
+- ["PSo18UIContentContainer", "sendMsgGenericErrorDelegate"]
+- ["PSo18UIContentContainer", "sendMsgGenericErrorTypeDelegate"]
+- !private ["PSo18UIContentContainer", "showGenericError"]
+- ["PSo18UIFocusEnvironment", "sendMsgGenericErrorDelegate"]
+- ["PSo18UIFocusEnvironment", "sendMsgGenericErrorTypeDelegate"]
+- !private ["PSo18UIFocusEnvironment", "showGenericError"]
+- ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "ViewModel"]
+- ["CSo11UIResponder", "delegateErrorGeneric"]
+- ["CSo11UIResponder", "errors"]
+- ["CSo11UIResponder", "sendMsgCategorie"]
+- ["CSo11UIResponder", "sendMsgGenericErrorDelegate"]
+- ["CSo11UIResponder", "sendMsgGenericErrorTypeDelegate"]
+- !private ["CSo11UIResponder", "showGenericError"]
+- ["PSo30UIResponderStandardEditActions", "delegateErrorGeneric"]
+- ["PSo30UIResponderStandardEditActions", "sendMsgCategorie"]
+- ["PSo30UIResponderStandardEditActions", "sendMsgGenericErrorDelegate"]
+- ["PSo30UIResponderStandardEditActions", "sendMsgGenericErrorTypeDelegate"]
+- !private ["PSo30UIResponderStandardEditActions", "showGenericError"]
+- ["PSo16UIStateRestoring", "sendMsgGenericErrorDelegate"]
+- ["PSo16UIStateRestoring", "sendMsgGenericErrorTypeDelegate"]
+- !private ["PSo16UIStateRestoring", "showGenericError"]
+- ["PSo18UITraitEnvironment", "sendMsgGenericErrorDelegate"]
+- ["PSo18UITraitEnvironment", "sendMsgGenericErrorTypeDelegate"]
+- !private ["PSo18UITraitEnvironment", "showGenericError"]
+- ["CSo16UIViewController", "String"]
+- ["CSo16UIViewController", "ViewModel"]
+- ["CSo16UIViewController", "deinit"]
+- ["CSo16UIViewController", "delegateErrorGeneric"]
+- ["CSo16UIViewController", "errors"]
+- ["CSo16UIViewController", "sendMsgCategorie"]
+- ["CSo16UIViewController", "sendMsgGenericErrorDelegate"]
+- ["CSo16UIViewController", "sendMsgGenericErrorTypeDelegate"]
+- !private ["CSo16UIViewController", "showGenericError"]
+- ["C16ErrorHandlerMVVM9ViewModel", "deinit"]
+- ["C16ErrorHandlerMVVM9ViewModel", "errorHandlerDelegate"]
+- ["C16ErrorHandlerMVVM9ViewModel", "errorHandlerProtocol"]
+- ["C16ErrorHandlerMVVM9ViewModel", "init"]
+- ["Ps9_Hashable", "delegateErrorGeneric"]
+- ["Ps9_Hashable", "errorHandlerDelegate"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "sendMsgCategorie"]
+- ["Ps9_Hashable", "sendMsgGenericErrorDelegate"]
+- ["Ps9_Hashable", "sendMsgGenericErrorTypeDelegate"]
+- !private ["Ps9_Hashable", "showGenericError"]
+- ["Ps9_Hashable", ""]
+- ["P16ErrorHandlerMVVM20errorHandlerProtocol", "String"]
+- ["P16ErrorHandlerMVVM20errorHandlerProtocol", "errors"]
+- ["P16ErrorHandlerMVVM20errorHandlerProtocol", "sendMsgGenericErrorDelegate"]
+- ["P16ErrorHandlerMVVM20errorHandlerProtocol", "sendMsgGenericErrorTypeDelegate"]
+- !private ["P16ErrorHandlerMVVM20errorHandlerProtocol", "showGenericError"]
+- ["P16ErrorHandlerMVVM20errorHandlerProtocol", ""]
+- ["V16ErrorHandlerMVVM13errorMessages", "init"]
+- ["O16ErrorHandlerMVVM6errors", "Int"]
+- ["O16ErrorHandlerMVVM6errors", "InternalError"]
+- ["O16ErrorHandlerMVVM6errors", "ServerError"]
+- ["O16ErrorHandlerMVVM6errors", "ServerErrorWithNumber"]
+- ["O16ErrorHandlerMVVM6errors", "String"]
+- ["O16ErrorHandlerMVVM6errors", "_code"]
+- ["O16ErrorHandlerMVVM6errors", "_domain"]
+- ["O16ErrorHandlerMVVM6errors", "_getEmbeddedNSError"]
+- ["O16ErrorHandlerMVVM6errors", "_userInfo"]
+- ["O16ErrorHandlerMVVM6errors", "deinit"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps5Error"
+- "Ps8Hashable"
+- "SQ"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "SS"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- "CSo16UIViewController"
+- "C16ErrorHandlerMVVM9ViewModel"
+- "Ps9_Hashable"
+- "P16ErrorHandlerMVVM20errorHandlerProtocol"
+- "V16ErrorHandlerMVVM13errorMessages"
+- "O16ErrorHandlerMVVM6errors"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode 7.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Users/Fernando/Proyectos/ErrorHandlerMVVMSwift/ErrorHandlerMVVM/ErrorHandlerMVVM/ErrorHandlerMVVM.h"
+- "/Users/Fernando/Proyectos/ErrorHandlerMVVMSwift/ErrorHandlerMVVM/Build/Intermediates/ErrorHandlerMVVM.build/Debug-iphoneos/ErrorHandlerMVVM.build/unextended-module.modulemap"
+- "/Applications/Xcode 7.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode 7.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode 7.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode 7.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode 7.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode 7.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode 7.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode 7.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode 7.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+interface-hash: "27dbf0105643cd390ce4db67f1fb9715"
