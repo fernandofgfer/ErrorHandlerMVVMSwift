@@ -6,7 +6,7 @@
 //  Copyright © 2017 Fernando García Fernández. All rights reserved.
 //
 
-enum errors: Error {
+public enum errors: Error {
     case InternalError
     case ServerError(code: String)
     case ServerErrorWithNumber(code: String, number: Int)
@@ -15,7 +15,7 @@ enum errors: Error {
 
 
 
-struct errorMessages{
+public struct errorMessages{
     
     static var errorSelfBankServers = NSLocalizedString("Error.noRed", comment: "")
     static var errorRequestGeneric = NSLocalizedString("Error.requestGeneric", comment: "")
@@ -23,7 +23,7 @@ struct errorMessages{
 }
 
 
-protocol errorHandlerProtocol{
+public protocol errorHandlerProtocol{
     func sendMsgGenericErrorDelegate(msg: String)
     func sendMsgGenericErrorTypeDelegate(errorType: errors)
 }
@@ -37,20 +37,20 @@ extension UIViewController : errorHandlerProtocol{
     }
     
     // Llamada genérica donde indicamos nosotros el mensaje
-    func sendMsgGenericErrorDelegate(msg: String) {
+    public func sendMsgGenericErrorDelegate(msg: String) {
         //self.showGenericError(msg)
     }
     
     // Error genérico por tipo
-    func sendMsgGenericErrorTypeDelegate(errorType: errors) {
+   public func sendMsgGenericErrorTypeDelegate(errorType: errors) {
         
         switch errorType {
         case .InternalError:
-           // self.showGenericError(errorMessages.errorSelfBankServers)
+            self.showGenericError(message: errorMessages.errorSelfBankServers)
         case let .ServerError(errorMessage):
-           //  self.showGenericError(errorMessage)
+             self.showGenericError(message: errorMessage)
         case let .ServerErrorWithNumber(errorMessage, _):
-           //  self.showGenericError(errorMessage)
+             self.showGenericError(message: errorMessage)
         }
         
     }
